@@ -85,7 +85,7 @@ def extract_features(audio_path):
 # Configuração do app Streamlit (Título e descrição)
 # Code here
 
-st.title('Emotions in audios!')
+st.title('🔊Emotions in audios!🎶')
 st.write('Selecione um áudio para analisarmos!')    
 
 # Upload de arquivo de áudio (wav, mp3, ogg)
@@ -136,7 +136,7 @@ if uploaded_file is not None:
     # Exibir probabilidades (gráfico de barras)
     # Code here
 
-    colors = ['#a0b4fc']
+    colors = ['#08d46c']
     classes = EMOTIONS
     fig, ax = plt.subplots()
     ax.set_ylabel("Probabilidade")
